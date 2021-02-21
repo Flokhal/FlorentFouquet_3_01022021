@@ -1,0 +1,127 @@
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a:link, a:visited
+{ 
+ text-decoration:none; 
+ color: black;
+}
+
+#body
+{
+	
+	border: solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.test 
+{
+	display: flex;
+	justify-content: center;
+	color: black;
+	transition: transform 400ms;
+	transform: scale(1); 
+
+}
+
+.test:hover
+{
+	color: blue;
+    transform: scale(1.5);
+}
+
+.img
+{
+	margin-left: 200px;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+#main
+{
+	border: solid;
+	border-color: grey;
+	background-color: lightgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.section
+{
+
+}
+
+.article
+{
+	display: flex;
+	border: solid;
+	border-color: darkgrey;
+	border-radius: 30px;
+	margin-bottom: 25px;
+
+
+}
+
+.textt
+{	
+	border: solid;
+	border-color: black;
+	-ms-transform: 3600ms translateY(-50px);
+	
+}
+
+.fas
+{	
+	margin-left: 50px;
+	transition: 3600ms;
+	-ms-transform: rotate(360deg);
+}
+
+#footer
+{
+	background-color: black;
+
+	
+}
+
+#logo2
+{
+	color: white;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#footertext a:link
+{
+	color: white;
+}
+
+
+
